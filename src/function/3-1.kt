@@ -1,3 +1,5 @@
+package function
+
 import java.util.*
 
 /**
@@ -6,10 +8,10 @@ import java.util.*
 
 //Basic Task
 //Create a new Kotlin file.
-//Copy and paste the main() function from Hello World into the file.
+//Copy and paste the function.function.function.function.function.function.main() function from Hello World into the file.
 //Create a new function, dayOfWeek().
 //In the body of the function, print "What day is it today?"
-//Call dayOfWeek() from main().
+//Call dayOfWeek() from function.function.function.function.function.function.main().
 //Run your program.
 
 

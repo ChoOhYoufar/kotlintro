@@ -1,11 +1,10 @@
-import java.io.BufferedReader
-import java.io.FileReader
+package function
 
 /**
  * @author cho.oh 2018/06/21.
  */
 
-//fun main(args: Array<String>) {
+//fun function.function.function.function.function.function.main(args: Array<String>) {
 //////    dayOfWeek()
 ////    getFortuneCookie()
 ////}
@@ -34,11 +33,11 @@ import java.io.FileReader
 ////    println(fortune)
 ////}
 
-//fun main(args: Array<String>) {
-//    println("\nYour fortune is: ${getFortune()}")
+//fun function.function.function.function.function.function.main(args: Array<String>) {
+//    println("\nYour fortune is: ${function.function.getFortune()}")
 //}
 //
-//fun getFortune() : String {
+//fun function.function.getFortune() : String {
 //    val fortunes = listOf( "You will have a great day!",
 //            "Things will go well for you today.",
 //            "Enjoy a wonderful day of success.",
@@ -51,10 +50,10 @@ import java.io.FileReader
 //    return fortunes[birthday.rem(fortunes.size)]
 //}
 //
-//fun main(args: Array<String>) {
+//fun function.function.function.function.function.function.main(args: Array<String>) {
 //    var fortune: String
 //    for (i in 1..10) {
-//        fortune = getFortune()
+//        fortune = function.function.getFortune()
 //        println("\nYour fortune is: $fortune")
 //        if (fortune.contains("Take it easy")) break
 //    }

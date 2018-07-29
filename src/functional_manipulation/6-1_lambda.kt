@@ -14,15 +14,15 @@ enum class Directions {
 }
 
 class Game {
-    var path = mutableListOf(Directions.START)
-    val north = {() -> path.add(Directions.NORTH)}
-    val south = {path.add(Directions.SOUTH)}
-    val east = {path.add(Directions.EAST)}
-    val west = {path.add(Directions.WEST)}
-    val end = {() -> path.add(Directions.END)}
+//    var path = mutableListOf(Directions.START)
+//    val north = {() -> path.add(Directions.NORTH)}
+//    val south = {path.add(Directions.SOUTH)}
+//    val east = {path.add(Directions.EAST)}
+//    val west = {path.add(Directions.WEST)}
+//    val end = {() -> path.add(Directions.END)}
 }
 
 fun main(args: Array<String>) {
-    val game: Game
-    game.path
+//    val game: Game
+//    game.path
 }

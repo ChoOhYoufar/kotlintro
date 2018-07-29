@@ -1,7 +1,9 @@
+package function
+
 /**
  * @author cho.oh 2018/06/22.
  */
-//fun main(args: Array<String>) {
+//fun function.function.function.function.function.function.main(args: Array<String>) {
 //    println(whatShouldIDoTodayBetter("happy", "sunny"))
 //    println(whatShouldIDoTodayBetter("sad"))
 //    print("How do you feel?")
@@ -21,10 +23,10 @@
 //    }
 //}
 
-//fun main(args: Array<String>) {
+//fun function.function.function.function.function.function.main(args: Array<String>) {
 //    var fortune: String = ""
 //    repeat(10){
-//        fortune = getFortune()
+//        fortune = function.function.getFortune()
 //        println("\nYour fortune is: $fortune")
 //        if (fortune.contains("Take it easy")) break;
 //    }
