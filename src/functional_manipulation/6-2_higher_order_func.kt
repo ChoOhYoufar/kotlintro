@@ -21,24 +21,44 @@ fun alphabet(): String {
 }
 
 //withを使える後
+//fun <T, R> with(receiver: T, block: T.() -> R): R = receiver.block()
+//最後の一行を返す
 fun alphabet2(): String {
     val stringBuilder = StringBuilder()
     return with(stringBuilder) {
         for (letter in 'A'..'Z') {
             this.append(letter)
         }
-        append("now I know the alphabet")
+        append("\nnow I know the alphabet")
         this.toString()
     }
+}
+
+//apply
+//fun <T> T.apply(block: T.() -> Unit): T { block(); return this }
+//thisを返す
+fun alphabet3() = StringBuilder().apply {
+    for (letter in 'A'..'Z') {
+        append(letter)
+    }
+    append("\nnow I know the alphabet")
+}
+
+fun main (args: Array<String>) {
+
+    //String
+    println(alphabet2().javaClass.name)
+    //StringBuilder
+    println(alphabet3().javaClass.name)
+
+//    println(alphabet2())
+
+//    println(alphabet3())
 }
 
 
 
 data class Fish (var name: String)
-
-fun main (args: Array<String>) {
-    fishExamples()
-}
 
 fun fishExamples() {
     val fish = Fish("splashy")
@@ -47,9 +67,3 @@ fun fishExamples() {
         capitalize()
     }
 }
-
-//apply
-
-//run
-
-//let
